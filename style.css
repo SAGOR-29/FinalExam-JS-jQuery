@@ -1,0 +1,116 @@
+body{
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+	color: #000;
+	background-image: url(sss.jpg);
+}
+
+
+.login-area{
+
+	margin: 200px auto;
+
+}
+
+.profile-area{
+	padding: 50px;
+	position: relative;
+	background: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.login-form {
+	overflow: hidden;
+	width: 500px;
+	margin: 0 auto;
+	/*border: 1px solid #eee;*/
+	padding: 60px 60px;
+}
+
+.form-group label{
+	color: red;
+	font-weight: 900;
+}
+
+
+.profile-form {
+	overflow: hidden;
+	width: 900px;
+	margin: 0 auto;
+	/*border: 1px solid #eee;*/
+	padding: 60px 60px;
+	/*position: fixed;*/
+	left: 20%;
+}
+
+.changebg{
+	margin-top: 25px;
+}
+
+/*textarea style*/
+
+.text-area {
+	width: 500px;
+	margin: 100px auto;
+}
+
+.text-area  textarea{
+	border-radius: 0;
+	resize: none;
+
+}
+
+.textarea-counter{
+	text-align: center;
+
+}
+
+
+.counter{
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	border: 2px solid black;
+	padding: 5px;
+
+}
+
+.green{
+	border-color: green;
+	color: green;
+}
+
+.red{
+	border-color: red;
+	color: red;
+}
+
+
+/*parallax style*/
+
+.box{
+	height: 100vh;
+	background-image: url(s5.jpg);
+}
+
+.box2{
+	
+	height: 100vh;
+	background-image: url(bl2.jpg);
+}
+
+
+.parallax-window {
+
+	height: 100vh;
+	background: transparent;
+	background-position: center center;
+}
+
+#tabs{
+	margin-top: 30px;
+}
